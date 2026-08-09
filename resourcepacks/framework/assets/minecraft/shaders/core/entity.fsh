@@ -20,7 +20,7 @@ in vec2 texCoord0;
 #ifdef MAYBE_PLAYERDISP
 in vec2 texCoord1;
 in float part;
-in vec3 pos;
+
 
 #define FADERANGE 12.0
 #define FADEBIAS 8.0
@@ -34,7 +34,7 @@ const mat4 bayer4 = mat4( 0.0 / 16.0,  8.0 / 16.0,  2.0 / 16.0, 10.0 / 16.0,
 #endif
 
 out vec4 fragColor;
-
+in vec3 pos;
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
 #ifdef ALPHA_CUTOUT

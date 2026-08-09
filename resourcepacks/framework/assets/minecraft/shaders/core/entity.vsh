@@ -18,6 +18,8 @@ in ivec2 UV1;
 in ivec2 UV2;
 in vec3 Normal;
 
+out vec3 pos;
+
 #ifdef MAYBE_PLAYERDISP
 uniform sampler2D Sampler0;
 #endif
@@ -31,7 +33,7 @@ out vec4 lightMapColor;
 out vec4 overlayColor;
 out vec2 texCoord0;
 
-out vec3 pos;
+
 #ifdef MAYBE_PLAYERDISP
 out vec2 texCoord1;
 out float part;
