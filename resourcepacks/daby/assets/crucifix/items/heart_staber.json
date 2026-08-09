@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "model",
+    "model": "crucifix:item/heart_staber"
+  },
+  "hand_animation_on_swap": true
+}

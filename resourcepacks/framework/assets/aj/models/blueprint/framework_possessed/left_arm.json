@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"1": "aj:blueprint/framework_possessed/possessed",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5, -7, 6.5],
+			"to": [8, 11, 9.5],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [6.5, 9.5, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0.375, 2.25],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0.375, 0, 0.75, 2.25],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0.75, 0, 1.125, 2.25],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [1.125, 0, 1.5, 2.25],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [3.75, 13.875, 3.375, 13.5],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [13.875, 6.375, 13.5, 6.75],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

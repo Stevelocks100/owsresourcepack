@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/ice",
+	"textures": {
+		"2": "minecraft:block/blue_ice"
+	}
+}

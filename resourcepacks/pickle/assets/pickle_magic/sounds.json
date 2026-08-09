@@ -1,0 +1,41 @@
+{
+  "pickle_cast_torsion": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "pickle_magic:pickle_cast_torsion"
+      }
+    ],
+    "preload": true
+  },
+  "testicular_torsion": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "pickle_magic:testicular_torsion"
+      }
+    ],
+    "preload": true
+  },
+  "writing":{
+    "replace": true,
+    "sounds": [
+      {
+        "name": "pickle_magic:writing_1"
+      },
+      {
+        "name": "pickle_magic:writing_2"
+      },
+      {
+        "name": "pickle_magic:writing_3"
+      },
+      {
+        "name": "pickle_magic:writing_4"
+      },
+      {
+        "name": "pickle_magic:writing_5"
+      }
+    ],
+    "preload": true
+  }
+}

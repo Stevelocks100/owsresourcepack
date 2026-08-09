@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/fine_print/right_arm",
+	"textures": {
+		"3": "aj:blueprint/fine_print/invisible"
+	}
+}

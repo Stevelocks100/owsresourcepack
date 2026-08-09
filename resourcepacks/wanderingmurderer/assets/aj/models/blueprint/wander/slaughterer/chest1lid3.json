@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/chest1lid3",
+	"textures": {
+		"0": "aj:blueprint/wander/wandering_slaughterer"
+	}
+}

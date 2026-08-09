@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/carrot_on_a_stick"
+    },
+    "cases": [
+      {"when": "lightning_ball","model": {"type": "minecraft:model","model": "pickle_magic:item/spells/lightning_ball","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}},
+      {"when": "halo","model": {"type": "minecraft:model","model": "pickle_magic:item/spells/halo","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}},
+      {"when": "unstable","model": {"type": "minecraft:model","model": "pickle_magic:item/spells/unstable","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}},
+      {"when": "condenced_wave","model": {"type": "minecraft:model","model": "pickle_magic:item/spells/condenced_wave","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}},
+      {"when": "energy_ball","model": {"type": "minecraft:model","model": "pickle_magic:item/energy_ball","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}}
+  ]
+  }
+}

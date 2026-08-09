@@ -1,0 +1,35 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "wander:item/white.png",
+            "ascent": 500,
+            "height": 1000,
+            "chars": [
+                "\uFF00"
+            ],
+            "shift": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "wander:gui/sprites/boss_bar/wandering_murderer.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "wander:gui/sprites/boss_bar/wandering_slaughterer.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF2"
+            ]
+        }
+    ]
+}

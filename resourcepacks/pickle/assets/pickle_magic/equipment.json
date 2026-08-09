@@ -1,0 +1,11 @@
+{
+  "pickle_leather_robe": {
+    "replace": true,
+    "": [
+      {
+        "name": "pickle_magic:pickle_cast_torsion"
+      }
+    ],
+    "preload": true
+  }
+}

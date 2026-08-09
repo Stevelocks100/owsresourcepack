@@ -1,0 +1,75 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"animated_java:inscription": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/inscription/book.json",
+				"assets/animated_java/items/blueprint/inscription/left_cover.json",
+				"assets/animated_java/items/blueprint/inscription/left_page_stack.json",
+				"assets/animated_java/items/blueprint/inscription/page1.json",
+				"assets/animated_java/items/blueprint/inscription/page2.json",
+				"assets/animated_java/items/blueprint/inscription/page3.json",
+				"assets/animated_java/items/blueprint/inscription/page4.json",
+				"assets/animated_java/items/blueprint/inscription/right_cover.json",
+				"assets/animated_java/items/blueprint/inscription/right_page_stack.json",
+				"assets/animated_java/models/blueprint/inscription/book.json",
+				"assets/animated_java/models/blueprint/inscription/left_cover.json",
+				"assets/animated_java/models/blueprint/inscription/left_page_stack.json",
+				"assets/animated_java/models/blueprint/inscription/page1.json",
+				"assets/animated_java/models/blueprint/inscription/page2.json",
+				"assets/animated_java/models/blueprint/inscription/page3.json",
+				"assets/animated_java/models/blueprint/inscription/page4.json",
+				"assets/animated_java/models/blueprint/inscription/right_cover.json",
+				"assets/animated_java/models/blueprint/inscription/right_page_stack.json"
+			]
+		},
+		"animated_java:spell_rift": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/spell_rift/debris_part1.json",
+				"assets/animated_java/items/blueprint/spell_rift/debris_part2.json",
+				"assets/animated_java/items/blueprint/spell_rift/rift.json",
+				"assets/animated_java/models/blueprint/spell_rift/debris_part1.json",
+				"assets/animated_java/models/blueprint/spell_rift/debris_part2.json",
+				"assets/animated_java/models/blueprint/spell_rift/rift.json",
+				"assets/animated_java/textures/blueprint/spell_rift/rift_frame.png"
+			]
+		},
+		"inscription": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/inscription/book.json",
+				"assets/animated_java/items/blueprint/inscription/left_cover.json",
+				"assets/animated_java/items/blueprint/inscription/left_page_stack.json",
+				"assets/animated_java/items/blueprint/inscription/page1.json",
+				"assets/animated_java/items/blueprint/inscription/page2.json",
+				"assets/animated_java/items/blueprint/inscription/page3.json",
+				"assets/animated_java/items/blueprint/inscription/page4.json",
+				"assets/animated_java/items/blueprint/inscription/right_cover.json",
+				"assets/animated_java/items/blueprint/inscription/right_page_stack.json",
+				"assets/animated_java/models/blueprint/inscription/book.json",
+				"assets/animated_java/models/blueprint/inscription/left_cover.json",
+				"assets/animated_java/models/blueprint/inscription/left_page_stack.json",
+				"assets/animated_java/models/blueprint/inscription/page1.json",
+				"assets/animated_java/models/blueprint/inscription/page2.json",
+				"assets/animated_java/models/blueprint/inscription/page3.json",
+				"assets/animated_java/models/blueprint/inscription/page4.json",
+				"assets/animated_java/models/blueprint/inscription/right_cover.json",
+				"assets/animated_java/models/blueprint/inscription/right_page_stack.json"
+			]
+		},
+		"spell_rift": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/spell_rift/debris_part1.json",
+				"assets/animated_java/items/blueprint/spell_rift/debris_part2.json",
+				"assets/animated_java/items/blueprint/spell_rift/rift.json",
+				"assets/animated_java/models/blueprint/spell_rift/debris_part1.json",
+				"assets/animated_java/models/blueprint/spell_rift/debris_part2.json",
+				"assets/animated_java/models/blueprint/spell_rift/rift.json",
+				"assets/animated_java/textures/blueprint/spell_rift/rift_frame.png"
+			]
+		}
+	}
+}

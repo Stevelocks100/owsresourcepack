@@ -1,0 +1,49 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"crucifix": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/crucifix/big_ahh_star.json",
+				"assets/animated_java/items/blueprint/crucifix/chain1.json",
+				"assets/animated_java/items/blueprint/crucifix/chain2.json",
+				"assets/animated_java/items/blueprint/crucifix/chain3.json",
+				"assets/animated_java/items/blueprint/crucifix/chain4.json",
+				"assets/animated_java/items/blueprint/crucifix/letters_idfk.json",
+				"assets/animated_java/items/blueprint/crucifix/moon.json",
+				"assets/animated_java/items/blueprint/crucifix/moon_around.json",
+				"assets/animated_java/models/blueprint/crucifix/big_ahh_star.json",
+				"assets/animated_java/models/blueprint/crucifix/chain1.json",
+				"assets/animated_java/models/blueprint/crucifix/chain2.json",
+				"assets/animated_java/models/blueprint/crucifix/chain3.json",
+				"assets/animated_java/models/blueprint/crucifix/chain4.json",
+				"assets/animated_java/models/blueprint/crucifix/letters_idfk.json",
+				"assets/animated_java/models/blueprint/crucifix/moon.json",
+				"assets/animated_java/models/blueprint/crucifix/moon_around.json",
+				"assets/animated_java/textures/blueprint/crucifix/crucifix.png"
+			]
+		},
+		"y_light": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/y_light/big_ahh_star.json",
+				"assets/animated_java/items/blueprint/y_light/chain1.json",
+				"assets/animated_java/items/blueprint/y_light/chain2.json",
+				"assets/animated_java/items/blueprint/y_light/chain3.json",
+				"assets/animated_java/items/blueprint/y_light/chain4.json",
+				"assets/animated_java/items/blueprint/y_light/letters_idfk.json",
+				"assets/animated_java/items/blueprint/y_light/moon.json",
+				"assets/animated_java/items/blueprint/y_light/moon_around.json",
+				"assets/animated_java/models/blueprint/y_light/big_ahh_star.json",
+				"assets/animated_java/models/blueprint/y_light/chain1.json",
+				"assets/animated_java/models/blueprint/y_light/chain2.json",
+				"assets/animated_java/models/blueprint/y_light/chain3.json",
+				"assets/animated_java/models/blueprint/y_light/chain4.json",
+				"assets/animated_java/models/blueprint/y_light/letters_idfk.json",
+				"assets/animated_java/models/blueprint/y_light/moon.json",
+				"assets/animated_java/models/blueprint/y_light/moon_around.json",
+				"assets/animated_java/textures/blueprint/y_light/y_light.png"
+			]
+		}
+	}
+}

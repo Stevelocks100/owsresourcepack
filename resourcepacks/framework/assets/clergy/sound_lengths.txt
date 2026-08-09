@@ -1,0 +1,1 @@
+chain_lightning.shock: 9 ticks

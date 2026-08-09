@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/music_disc_cat"
+    },
+    "cases": [
+      {"when":"echo_crystal","model":{"type":"minecraft:model","model":"pickle_magic:item/echo_crystal","tints":[{"type":"minecraft:custom_model_data","index":0,"default":16777215}]}}]
+  }
+}

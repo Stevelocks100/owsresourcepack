@@ -1,0 +1,50 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "font/coin0.png",
+			"height": 11,
+			"ascent": 7,
+			"chars": [
+				"1"
+			]
+		},
+{
+			"type": "bitmap",
+			"file": "font/coin1.png",
+			"height": 11,
+			"ascent": 7,
+			"chars": [
+				"2"
+			]
+		},
+{
+			"type": "bitmap",
+			"file": "font/coin2.png",
+			"height": 11,
+			"ascent": 7,
+			"chars": [
+				"3"
+			]
+		},
+{
+			"type": "bitmap",
+			"file": "font/coin3.png",
+			"height": 11,
+			"ascent": 7,
+			"chars": [
+				"4"
+			]
+		},
+{
+			"type": "bitmap",
+			"file": "font/coin4.png",
+			"height": 11,
+			"ascent": 7,
+			"chars": [
+				"5"
+			]
+		}
+
+	]
+}

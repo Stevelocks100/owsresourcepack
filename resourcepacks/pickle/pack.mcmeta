@@ -1,0 +1,13 @@
+{
+	"pack": {
+		"pack_format": 75,
+		"description": [
+			{
+				"text": "Pickle's wonderful, magic system based off the old ars magica 2 mod that he loved to use.",
+				"color": "blue"
+			}
+		],
+		"min_format": 75,
+		"max_format": 75
+	}
+}

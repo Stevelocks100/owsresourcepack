@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "pickle_magic:wizard_hat"
+      },
+      {
+        "texture": "pickle_magic:hat_overlay"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/torn_part",
+	"textures": {
+		"0": "aj:blueprint/wander/wandering_slaughterer"
+	}
+}

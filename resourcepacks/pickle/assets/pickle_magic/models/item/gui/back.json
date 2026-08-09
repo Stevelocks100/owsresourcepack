@@ -1,0 +1,19 @@
+{
+	"parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "pickle_magic:item/gui/back",
+    "0": "pickle_magic:item/gui/back"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 7.5],
+      "to": [16, 16, 8.5],
+      "shade": false,
+      "light_emission": 15,
+      "faces": {
+        "north": {"texture": "#0", "tintindex":0},
+        "south": {"texture": "#0", "tintindex":0}
+      }
+    }
+  ]
+}

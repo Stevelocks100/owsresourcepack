@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/leather_helmet",
+      "tints": [{
+        "default": -6265536,
+        "type": "dye"
+      }
+      ]
+    },
+    "cases": [
+      {
+        "when": "wizard_hat",
+        "model": {
+          "type": "select",
+          "property": "minecraft:component",
+          "component": "minecraft:dyed_color",
+          "fallback": {
+            "type": "model",
+            "model": "pickle_magic:item/wizard_hat",
+            "tints": [
+              {
+                "type": "minecraft:dye",
+                "default": -6265536
+              }
+            ]
+          },
+          "cases": [
+            {
+              "when": [14476585, 14805046],
+              "model": {
+                "type": "model",
+                "model": "pickle_magic:item/error_wizard_hat"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

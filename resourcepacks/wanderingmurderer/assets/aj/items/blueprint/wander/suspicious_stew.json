@@ -1,0 +1,41 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"when": "soup_on",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/wander/soup_on/suspicious_stew",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "item_off",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/wander/item_off/suspicious_stew",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "aj:blueprint/wander/suspicious_stew",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
+	}
+}

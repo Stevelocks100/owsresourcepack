@@ -1,0 +1,11 @@
+{
+  "catzooka.fwoomp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "alise:catzooka/fwoomp"
+      }
+    ],
+    "preload": true
+  }
+}

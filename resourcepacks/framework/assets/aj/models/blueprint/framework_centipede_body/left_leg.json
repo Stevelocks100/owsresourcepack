@@ -1,0 +1,85 @@
+{
+	"textures": {
+		"0": "aj:blueprint/framework_centipede_body/armor_standd",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7, 8, 7],
+			"to": [9, 19, 9],
+			"rotation": {
+				"x": 0,
+				"y": 90,
+				"z": 90,
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [3, 0.5, 2.5, 3.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [3.5, 0.5, 3, 3.25],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [4, 0.5, 3.5, 3.25],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [2.5, 0.5, 2, 3.25],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [2.5, 0.5, 3, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [3, 0, 3.5, 0.5],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [-4, 8, 7],
+			"to": [-2, 19, 9],
+			"rotation": {
+				"x": 0,
+				"y": 90,
+				"z": 90,
+				"origin": [-3, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [3, 0.5, 2.5, 3.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [3.5, 0.5, 3, 3.25],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [4, 0.5, 3.5, 3.25],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [2.5, 0.5, 2, 3.25],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [2.5, 0.5, 3, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [3, 0, 3.5, 0.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

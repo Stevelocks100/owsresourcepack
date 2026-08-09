@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "pickle_magic:item/crystal_ball_item"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 13, 0],
+			"translation": [0, 2.5, -0.25],
+			"scale": [0.5, 0.75, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 13, 0],
+			"translation": [0, 2.5, -0.25],
+			"scale": [0.5, 0.75, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -47, 0],
+			"translation": [0, 2.5, -0.25],
+			"scale": [0.5, 0.75, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -47, 0],
+			"translation": [0, 2.5, -0.25],
+			"scale": [0.5, 0.75, 0.5]
+		},
+		"ground": {
+			"translation": [0, 2.5, -0.25],
+			"scale": [0.5, 0.75, 0.5]
+		},
+		"gui": {
+			"translation": [0, 0.5, -0.25],
+			"scale": [0.87, 1.16, 1.16]
+		},
+		"head": {
+			"translation": [0, 4.5, -6.75],
+			"scale": [0.76, 1.11, 1.16]
+		},
+		"fixed": {
+			"translation": [0, 0.5, -0.25],
+			"scale": [1, 1.45, 1]
+		},
+		"on_shelf": {
+			"translation": [0, 0.5, -0.25],
+			"scale": [1, 1.45, 1]
+		}
+	}
+}

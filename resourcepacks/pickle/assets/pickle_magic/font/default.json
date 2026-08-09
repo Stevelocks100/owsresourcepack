@@ -1,0 +1,150 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/full_mana_bar.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E0"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/empty_mana_bar.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E1"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/noise_1_burnout_mana_bar.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E2"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/noise_2_burnout_mana_bar.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E3"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/noise_3_burnout_mana_bar.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E4"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/left_filled_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E5"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/right_filled_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E6"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/left_empty_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E7"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/right_empty_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E8"]
+        }
+
+        ,
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/left_burnout_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE0E9"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/right_burnout_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE1E0"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/armor_bonus_mana_bar.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE1E1"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/right_armor_bonus_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE1E2"]
+        },        
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/left_armor_bonus_mana_bar_cap.png",
+            "ascent": 2,
+            "height": 29,
+            "chars": ["\uE1E3"]
+        },
+
+
+        { "type": "bitmap", "file": "pickle_magic:ui_font/0.png",     "ascent": 3, "height": 31, "chars": ["0"]},
+        { "type": "bitmap", "file": "pickle_magic:ui_font/1.png",     "ascent": 10, "height": 38, "chars": ["1"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/2.png",     "ascent": 2, "height": 29, "chars": ["2"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/3.png",     "ascent": 2, "height": 29, "chars": ["3"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/4.png",     "ascent": 2, "height": 29, "chars": ["4"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/5.png",     "ascent": 1, "height": 29, "chars": ["5"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/6.png",     "ascent": 2, "height": 29, "chars": ["6"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/7.png",     "ascent": 9, "height": 37, "chars": ["7"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/8.png",     "ascent": 9, "height": 38, "chars": ["8"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/9.png",     "ascent": 2, "height": 29, "chars": ["9"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/slash.png", "ascent": 2, "height": 27, "chars": ["/"] },
+
+        {"type": "bitmap","file": "pickle_magic:ui_font/container.png","ascent": 2,"height": 35, "chars": ["\uE2E5"]},
+        { "type": "bitmap", "file": "pickle_magic:ui_font/container_2.png", "ascent": 2, "height": 35, "chars": ["\uE2E6"] },
+        { "type": "bitmap", "file": "pickle_magic:ui_font/container_3.png", "ascent": 2, "height": 35, "chars": ["\uE2E7"] },
+
+
+        {
+    "type": "space",
+    "advances": {
+        "\uF800": 0,
+        "\uF801": -0.79,
+        "\uF802": -1.5,
+        "\uF804": -4,
+        "\uF807": -0.21,
+        "\uF808": -5,
+        "\uF809": -7.5,
+        "\uF811": -10,
+
+        "\uF810": 32,
+        "\uF820": -32,
+        "\uF840": -78,
+        "\uF880": -128,
+        "\uF901": 1, 
+        "\uF902": 2, 
+        "\uF904": 4, 
+        "\uF908": 8,
+        "\uF910": 16, 
+        "\uF920": 32, 
+        "\uF940": 64, 
+        "\uF980": 128
+    }
+}
+    ]
+}

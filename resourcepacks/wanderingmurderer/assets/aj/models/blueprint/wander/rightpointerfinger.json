@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "aj:blueprint/wander/wandering_murderer",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [17.56825, 7.28218, 6.99],
+			"to": [19.58825, 13.30218, 9.01],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -22.5,
+				"origin": [2, 37.25, 10]
+			},
+			"faces": {
+				"north": {
+					"uv": [6.875, 11.375, 7, 11.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [7, 11.375, 7.125, 11.75],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [9.3125, 11.375, 9.4375, 11.75],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [10.625, 11.375, 10.75, 11.75],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [11.75, 11.0625, 11.625, 10.9375],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [11.375, 11.625, 11.25, 11.75],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Openvoxel Studios",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "breadbot:item/remote_breadtroller"
+	}
+}

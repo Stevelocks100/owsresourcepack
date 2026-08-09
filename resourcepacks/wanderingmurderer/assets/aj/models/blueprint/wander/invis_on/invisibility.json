@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/invisibility",
+	"textures": {
+		"2": "aj:blueprint/wander/invisibility"
+	}
+}

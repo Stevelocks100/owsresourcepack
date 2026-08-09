@@ -1,0 +1,15 @@
+{
+	"parent": "framework:item/armor_stand_item",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [33.12, -26.7, -8.95],
+			"translation": [2.25, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [33.12, -26.7, -8.95],
+			"translation": [2.25, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		}
+	}
+}

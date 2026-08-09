@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/fine_print/torso",
+	"textures": {
+		"3": "aj:blueprint/fine_print/invisible"
+	}
+}

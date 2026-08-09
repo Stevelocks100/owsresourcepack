@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/sunflower"
+    },
+    "cases": [
+      {"when": "mage_light","model": {"type": "minecraft:model","model": "pickle_magic:mage_light","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}},
+      {"when": "crystal_ball","model": {"type": "minecraft:model","model": "pickle_magic:item/crystal_ball","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}}
+    ]
+  }
+}

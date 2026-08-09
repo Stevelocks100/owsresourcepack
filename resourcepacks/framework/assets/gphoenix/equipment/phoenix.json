@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gphoenix:phoenix"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gphoenix:phoenix"
+      }
+    ]
+  }
+}

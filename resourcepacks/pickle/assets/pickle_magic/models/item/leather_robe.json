@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pickle_magic:item/leather_robe",
+    "layer1": "pickle_magic:item/leather_robe_overlay"
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:component",
+		"component": "minecraft:custom_name",
+		"cases": [
+			{
+				"when": "Six Pistols",
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/sex_pistols"
+				}
+			},
+			{
+				"when": "Sex Pistols",
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/sex_pistols"
+				}
+			},
+			{
+				"when": "six pistols",
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/sex_pistols"
+				}
+			},
+			{
+				"when": "sex pistols",
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/sex_pistols"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/cowboy_gun"
+		}
+	}
+}

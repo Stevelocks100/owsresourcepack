@@ -1,0 +1,8 @@
+{
+    "crucifix": {
+        "sounds": ["custom/crucifix_sound"]
+    },
+        "its_okay": {
+        "sounds": ["custom/its_okay"]
+    }
+}

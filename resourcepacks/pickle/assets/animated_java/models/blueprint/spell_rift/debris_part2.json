@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/spell_rift/rift_frame",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [0.85106, 8, 8.10213],
+			"to": [24.34043, 32, 8.10213],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 32.5,
+				"origin": [11.57447, 14.6383, 7.89787]
+			},
+			"faces": {
+				"north": {
+					"uv": [4.5, 0, 9, 4.625],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [11, 0, 11.125, 4.625],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [9, 0, 4.5, 4.625],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [11.125, 0, 11.25, 4.625],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [14.85625, 0.125, 10.35625, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [15.75, 0, 11.25, 0.125],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

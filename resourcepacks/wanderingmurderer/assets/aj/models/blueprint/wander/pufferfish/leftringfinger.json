@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/leftringfinger",
+	"textures": {
+		"0": "aj:blueprint/wander/wandering_murderer_variant"
+	}
+}

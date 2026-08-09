@@ -1,0 +1,229 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/y_light/y_light",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [9, -8, 7],
+			"to": [9, 0, 14],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, -8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 12, 0.875, 13],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12, 0, 12.875, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0.875, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 0, 0.875],
+					"texture": "#0"
+				}
+			},
+			"light_emission": 15
+		},
+		{
+			"from": [9, 0, 7],
+			"to": [9, 8, 14],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 0, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 12, 0.875, 13],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12, 0, 12.875, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0.875, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 0, 0.875],
+					"texture": "#0"
+				}
+			},
+			"light_emission": 15
+		},
+		{
+			"from": [9, 8, 7],
+			"to": [9, 16, 14],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 12, 0.875, 13],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12, 0, 12.875, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0.875, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 0, 0.875],
+					"texture": "#0"
+				}
+			},
+			"light_emission": 15
+		},
+		{
+			"from": [5.5, -8, 10.5],
+			"to": [12.5, 0, 10.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6.5, -8, 11.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 12, 0.875, 13],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12, 0, 12.875, 1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0.875, 0, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0.875, 0, 0, 0],
+					"texture": "#0"
+				}
+			},
+			"light_emission": 15
+		},
+		{
+			"from": [5.5, 0, 10.5],
+			"to": [12.5, 8, 10.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6.5, 0, 11.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 12, 0.875, 13],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12, 0, 12.875, 1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0.875, 0, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0.875, 0, 0, 0],
+					"texture": "#0"
+				}
+			},
+			"light_emission": 15
+		},
+		{
+			"from": [5.5, 8, 10.5],
+			"to": [12.5, 16, 10.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6.5, 8, 11.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 12, 0.875, 13],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12, 0, 12.875, 1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 0, 1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0.875, 0, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0.875, 0, 0, 0],
+					"texture": "#0"
+				}
+			},
+			"light_emission": 15
+		}
+	]
+}

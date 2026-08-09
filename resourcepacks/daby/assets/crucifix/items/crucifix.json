@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "crucifix:item/crucifix"
+    },
+    "hand_animation_on_swap": true
+}

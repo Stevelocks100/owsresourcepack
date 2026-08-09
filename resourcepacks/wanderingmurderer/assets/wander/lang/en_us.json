@@ -1,0 +1,18 @@
+
+{
+    "death.attack.molotov_milktail": "%1$s was reduced to ash and dairy",
+    "death.attack.molotov_milktail.player": "%1$s couldn’t survive the lactose inferno of %2$s",
+
+    "death.attack.gilded_emerald_cleaver.item": "%1$s was crushed beneath %2$s's massive blade",
+    "death.attack.gilded_emerald_cleaver.player": "%1$s was crushed beneath %2$s's massive blade",
+    "death.attack.gilded_emerald_cleaver": "%1$s was crushed beneath %2$s's massive blade",
+
+    "death.attack.gunpowder_dust": "%1$s got caught in a trail of gunpowder",
+    "death.attack.gunpowder_dust.player": "%1$s got caught in a trail of gunpowder",
+    "death.attack.gunpowder_dust.item": "%1$s got caught in a trail of gunpowder",
+
+    "death.attack.amethyst_cleaver_effect": "%1$s's ears exploded",
+    "death.attack.amethyst_cleaver_effect.player": "%1$s's ears exploded",
+    "death.attack.amethyst_cleaver_effect.item": "%1$s's ears exploded"
+    
+}

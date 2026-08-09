@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/breadbot/head17",
+	"textures": {
+		"0": "aj:blueprint/breadbot/33667731eb9f1a45cb2722e72d40e4bfe500d2d105767e9849f8ffb24775824d"
+	}
+}

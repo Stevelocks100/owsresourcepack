@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/armor_stand"
+    },
+    "cases": [
+      {"when": "inscription_table","model": {"type": "minecraft:model","model": "pickle_magic:inscription_table","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}},
+      {"when": "crystal_ball","model": {"type": "minecraft:model","model": "pickle_magic:item/crystal_ball_item","tints": [{"type": "minecraft:custom_model_data","index": 0,"default": 16777215}]}}
+    ]
+  }
+}

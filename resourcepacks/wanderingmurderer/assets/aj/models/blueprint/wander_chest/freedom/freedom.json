@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander_chest/freedom",
+	"textures": {
+		"2": "aj:blueprint/wander_chest/freedom"
+	}
+}
