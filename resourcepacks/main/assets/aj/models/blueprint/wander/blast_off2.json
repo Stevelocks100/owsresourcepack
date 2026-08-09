@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"10": "aj:blueprint/wander/blank2",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-4, -4, 8],
+			"to": [20, 20, 8],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [4.5, 4, 8.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#10"
+				},
+				"east": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#10"
+				},
+				"south": {
+					"uv": [16, 0, 0, 16],
+					"texture": "#10"
+				},
+				"west": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#10"
+				},
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#10"
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#10"
+				}
+			}
+		}
+	]
+}

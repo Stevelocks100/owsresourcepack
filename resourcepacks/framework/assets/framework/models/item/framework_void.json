@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Openvoxel Studios",
+	"textures": {
+		"0": "framework:item/framework_void",
+		"particle": "framework:item/framework_void"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 0, 8]},
+			"faces": {
+				"up": {"uv": [6, 4, 8, 6], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

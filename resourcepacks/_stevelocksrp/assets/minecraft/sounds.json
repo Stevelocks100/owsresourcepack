@@ -1,0 +1,105 @@
+{
+    "ambient.cave": {
+        "sounds": [],
+        "replace": true
+    },
+    "item.spyglass.use": {
+        "sounds": [
+            {
+                "name": "item/spyglass/funny",
+                "volume": 0.5
+            }
+        ],
+        "replace": true
+    },
+    "music.menu": {
+        "sounds": [
+            {
+                "name": "music/menu/moog_city_2",
+                "stream": true,
+                "weight": 2
+            },
+            {
+                "name": "music/game/creative/aria_math",
+                "stream": true,
+                "weight": 1,
+                "volume": 0.7
+            }
+        ],
+        "replace": true
+    },
+    "music.creative": {
+        "sounds": [
+            {
+                "name": "music/game/creative/aria_math",
+                "stream": true,
+                "weight": 3,
+                "volume": 0.7
+            },
+            {
+                "name": "music/game/creative/blind_spots_deltarune",
+                "stream": true,
+                "weight": 1
+            }
+        ],
+        "replace": false
+    },
+    "music.game": {
+        "sounds": [
+            {
+                "name": "music/game/creative/aria_math",
+                "stream": true,
+                "volume": 0.4,
+                "weight": 3
+            },
+            {
+                "name": "music/menu/moog_city_2",
+                "stream": true,
+                "weight": 3
+            },
+            {
+                "name": "music/game/creative/blind_spots_deltarune",
+                "stream": true,
+                "weight": 1
+            }
+        ],
+        "replace": false
+    },
+    "music.nether.basalt_deltas": {
+        "sounds": [
+            {
+                "name": "music/game/nether/dead_voxel_deltarune",
+                "stream": true
+            }
+        ],
+        "replace": false
+    },
+    "music.nether.crimson_forest": {
+        "sounds": [
+            {
+                "name": "music/game/nether/dead_voxel_deltarune",
+                "stream": true
+            }
+        ],
+        "replace": false
+    },
+    "music.nether.nether_wastes": {
+        "sounds": [
+            {
+                "name": "music/game/nether/dead_voxel_deltarune",
+                "stream": true
+            }
+        ],
+        "replace": false
+    },
+    "music.nether.soul_sand_valley": {
+        "sounds": [
+
+            {
+                "name": "music/game/nether/dead_voxel_deltarune",
+                "stream": true
+            }
+        ],
+        "replace": false
+    }
+}

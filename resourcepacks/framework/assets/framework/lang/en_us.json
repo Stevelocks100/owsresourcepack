@@ -1,0 +1,9 @@
+{
+  "death.attack.framework_entity": "%1$s was killed by ■■■■■■■■■■■■",
+  "death.attack.framework_entity.player": "%1$s was killed by ■■■■■■■■■■■■",
+  "death.attack.framework_entity.item":"%1$s was killed by ■■■■■■■■■■■■",
+  "biome.framework.substructure": "Substructure",
+  "biome.framework.span": "Span",
+  "biome.framework.exposure": "Exposure",
+  "biome.framework.transfer": "Transfer"
+}

@@ -1,0 +1,11 @@
+{
+  "chain_lightning.shock": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "clergy:chain_lightning/shock"
+      }
+    ],
+    "preload": true
+  }
+}

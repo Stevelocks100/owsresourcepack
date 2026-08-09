@@ -1,0 +1,379 @@
+{
+  "pocket.tick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:pocket/tick"
+      }
+    ],
+    "preload": true
+  },
+  "pocket.coin_drop_echo": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:pocket/coin_drop_echo"
+      }
+    ],
+    "preload": true
+  },
+  "pocket.coin_drop": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:pocket/coin_drop"
+      }
+    ],
+    "preload": true
+  },
+  "pocket.ambience.1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:pocket/ambience/1"
+      }
+    ]
+  },
+  "pocket.ambience.2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:pocket/ambience/2"
+      }
+    ]
+  },
+  "pocket.ambience": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:pocket/ambience/1"
+      },
+      {
+        "name": "wander:pocket/ambience/2"
+      }
+    ]
+  },
+  "records.emerald_ultimatum": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:records/emerald_ultimatum"
+      }
+    ],
+    "preload": true
+  },
+  "records.amethyst_altercation": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:records/amethyst_altercation"
+      }
+    ],
+    "preload": true
+  },
+  "records.paramnesia": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:records/paramnesia"
+      }
+    ],
+    "preload": true
+  },
+  "records.meg": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:records/meg"
+      }
+    ],
+    "preload": true
+  },
+  "records.hmmerald_hmmteramatum": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:records/hmmerald_hmmteramatum"
+      }
+    ],
+    "preload": true
+  },
+  "phase3.emerald_stop": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_stop"
+      }
+    ],
+    "preload": true
+  },
+  "phase3.hit_wall_far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/hit_wall_far"
+      }
+    ],
+    "preload": true
+  },
+  "phase3.emerald_rising": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_rising"
+      }
+    ],
+    "preload": true
+  },
+  "phase3.hit_wall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/hit_wall"
+      }
+    ],
+    "preload": true
+  },
+  "phase3.emerald_hum.1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_hum/1"
+      }
+    ]
+  },
+  "phase3.emerald_hum.2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_hum/2"
+      }
+    ]
+  },
+  "phase3.emerald_hum.3": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_hum/3"
+      }
+    ]
+  },
+  "phase3.emerald_hum.4": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_hum/4"
+      }
+    ]
+  },
+  "phase3.emerald_hum.5": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_hum/5"
+      }
+    ]
+  },
+  "phase3.emerald_hum.6": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_hum/6"
+      }
+    ]
+  },
+  "phase3.emerald_hum": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:phase3/emerald_hum/1"
+      },
+      {
+        "name": "wander:phase3/emerald_hum/2"
+      },
+      {
+        "name": "wander:phase3/emerald_hum/3"
+      },
+      {
+        "name": "wander:phase3/emerald_hum/4"
+      },
+      {
+        "name": "wander:phase3/emerald_hum/5"
+      },
+      {
+        "name": "wander:phase3/emerald_hum/6"
+      }
+    ]
+  },
+  "fine_print.swap_item": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:fine_print/swap_item"
+      }
+    ],
+    "preload": true
+  },
+  "fine_print.item_transform": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:fine_print/item_transform"
+      }
+    ],
+    "preload": true
+  },
+  "fine_print.hit_item": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:fine_print/hit_item"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.amethyst_sword_hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/amethyst_sword_hit"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.slaughterer_ending": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/slaughterer_ending"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.fullsong": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/fullsong"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.slaughterer_intro": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/slaughterer_intro"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.phase2_slaughterer": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/phase2_slaughterer"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.phase3_slaughterer": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/phase3_slaughterer"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.phase3_slaughterer_bridge": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/phase3_slaughterer_bridge"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.twinkle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/twinkle"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.phase2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/phase2"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.phase3": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/phase3"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.phase1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/phase1"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.phase1_slaughterer": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/phase1_slaughterer"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.bag": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/bag"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.fake_stereo": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/fake_stereo"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.fake_mono": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/fake_mono"
+      }
+    ],
+    "preload": true
+  },
+  "wandering_murderer.ending": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "wander:wandering_murderer/ending"
+      }
+    ],
+    "preload": true
+  }
+}

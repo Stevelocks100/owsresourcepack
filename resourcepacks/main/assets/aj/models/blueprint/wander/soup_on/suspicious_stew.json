@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/suspicious_stew",
+	"textures": {
+		"2": "minecraft:item/suspicious_stew"
+	}
+}

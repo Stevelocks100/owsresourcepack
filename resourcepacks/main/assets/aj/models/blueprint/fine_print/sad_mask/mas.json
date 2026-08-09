@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/fine_print/mas",
+	"textures": {
+		"1": "aj:blueprint/fine_print/sadmask"
+	}
+}

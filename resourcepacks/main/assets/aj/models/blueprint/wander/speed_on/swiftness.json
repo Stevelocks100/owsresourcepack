@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/swiftness",
+	"textures": {
+		"2": "aj:blueprint/wander/swiftness"
+	}
+}

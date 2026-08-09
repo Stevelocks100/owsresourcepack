@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"description": [
+			"",
+			{
+				"text": "Milkman's",
+				"bold": true,
+				"color": "gold"
+			},
+			{
+				"text": " Weapon",
+				"bold": true,
+				"color": "blue"
+			}
+		],
+		"min_format": 75,
+		"max_format": 75
+	}
+}

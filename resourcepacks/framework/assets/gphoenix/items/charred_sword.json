@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "glow",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "gphoenix:item/charred_sword_glow"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "gphoenix:item/charred_sword"
+        }
+    }
+}

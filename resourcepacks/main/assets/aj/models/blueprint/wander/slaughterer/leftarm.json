@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/wander/leftarm",
+	"textures": {
+		"0": "aj:blueprint/wander/wandering_slaughterer"
+	}
+}

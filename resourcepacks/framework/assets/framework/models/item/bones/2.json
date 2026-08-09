@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Openvoxel Studios",
+	"textures": {
+		"0": "framework:item/armor_stand"
+	},
+	"elements": [
+		{
+			"name": "left_arm",
+			"from": [7, 2.9, 7],
+			"to": [9, 14.9, 9],
+			"rotation": {"x": 0, "y": 0, "z": -90, "origin": [8, 8.9, 8]},
+			"faces": {
+				"north": {"uv": [9, 4.5, 8.5, 7.5], "texture": "#0"},
+				"east": {"uv": [9.5, 4.5, 9, 7.5], "texture": "#0"},
+				"south": {"uv": [10, 4.5, 9.5, 7.5], "texture": "#0"},
+				"west": {"uv": [8.5, 4.5, 8, 7.5], "texture": "#0"},
+				"up": {"uv": [8.5, 4.5, 9, 4], "texture": "#0"},
+				"down": {"uv": [9, 4, 9.5, 4.5], "texture": "#0"}
+			}
+		}
+	]
+}

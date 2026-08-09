@@ -1,0 +1,7 @@
+{
+	"parent": "aj:blueprint/wander/blast_off1",
+	"textures": {
+		"2": "aj:blueprint/wander/blasting_off1",
+		"10": "aj:blueprint/wander/blasting_off2"
+	}
+}
