@@ -1,6 +1,0 @@
-{
-	"parent": "aj:blueprint/wander/whey",
-	"textures": {
-		"2": "wander:item/whey"
-	}
-}

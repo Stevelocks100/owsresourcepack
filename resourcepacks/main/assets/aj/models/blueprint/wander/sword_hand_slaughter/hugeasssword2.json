@@ -1,7 +1,0 @@
-{
-	"parent": "aj:blueprint/wander/hugeasssword2",
-	"textures": {
-		"0": "aj:blueprint/wander/blank",
-		"2": "aj:blueprint/wander/wandering_slaughterer"
-	}
-}

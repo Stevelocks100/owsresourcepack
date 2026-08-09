@@ -1,6 +1,0 @@
-{
-	"parent": "aj:blueprint/wander/leftfoot",
-	"textures": {
-		"0": "aj:blueprint/wander/wandering_slaughterer"
-	}
-}

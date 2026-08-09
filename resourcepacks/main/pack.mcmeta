@@ -1,17 +1,159 @@
 {
 	"pack": {
 		"description": [
-			"",
-			{
-				"text": "Milkman's",
-				"bold": true,
-				"color": "gold"
-			},
-			{
-				"text": " Weapon",
-				"bold": true,
-				"color": "blue"
-			}
+			[
+				"",
+				{
+					"color": "#fe901a",
+					"bold": true,
+					"text": "O"
+				},
+				{
+					"color": "#fe921d",
+					"bold": true,
+					"text": "n"
+				},
+				{
+					"color": "#fe9420",
+					"bold": true,
+					"text": "e"
+				},
+				{
+					"color": "#fe9623",
+					"bold": true,
+					"text": " "
+				},
+				{
+					"color": "#fe9925",
+					"bold": true,
+					"text": "W"
+				},
+				{
+					"color": "#fe9b28",
+					"bold": true,
+					"text": "e"
+				},
+				{
+					"color": "#fe9d2b",
+					"bold": true,
+					"text": "e"
+				},
+				{
+					"color": "#fe9f2e",
+					"bold": true,
+					"text": "k"
+				},
+				{
+					"color": "#fea131",
+					"bold": true,
+					"text": " "
+				},
+				{
+					"color": "#fea334",
+					"bold": true,
+					"text": "S"
+				},
+				{
+					"color": "#fea537",
+					"bold": true,
+					"text": "e"
+				},
+				{
+					"color": "#fea839",
+					"bold": true,
+					"text": "r"
+				},
+				{
+					"color": "#feaa3c",
+					"bold": true,
+					"text": "v"
+				},
+				{
+					"color": "#feac3f",
+					"bold": true,
+					"text": "e"
+				},
+				{
+					"color": "#feae42",
+					"bold": true,
+					"text": "r"
+				},
+				{
+					"color": "#ffb045",
+					"bold": true,
+					"text": " "
+				},
+				{
+					"color": "#ffb248",
+					"bold": true,
+					"text": "R"
+				},
+				{
+					"color": "#ffb44b",
+					"bold": true,
+					"text": "e"
+				},
+				{
+					"color": "#ffb64e",
+					"bold": true,
+					"text": "s"
+				},
+				{
+					"color": "#ffb950",
+					"bold": true,
+					"text": "o"
+				},
+				{
+					"color": "#ffbb53",
+					"bold": true,
+					"text": "u"
+				},
+				{
+					"color": "#ffbd56",
+					"bold": true,
+					"text": "r"
+				},
+				{
+					"color": "#ffbf59",
+					"bold": true,
+					"text": "c"
+				},
+				{
+					"color": "#ffc15c",
+					"bold": true,
+					"text": "e"
+				},
+				{
+					"color": "#ffc35f",
+					"bold": true,
+					"text": " "
+				},
+				{
+					"color": "#ffc562",
+					"bold": true,
+					"text": "P"
+				},
+				{
+					"color": "#ffc864",
+					"bold": true,
+					"text": "a"
+				},
+				{
+					"color": "#ffca67",
+					"bold": true,
+					"text": "c"
+				},
+				{
+					"color": "#ffcc6a",
+					"bold": true,
+					"text": "k"
+				},
+				{
+					"color": "#ffce6d",
+					"bold": true,
+					"text": "!"
+				}
+			]
 		],
 		"min_format": 75,
 		"max_format": 75

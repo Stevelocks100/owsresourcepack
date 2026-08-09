@@ -1,8 +1,0 @@
-{
-	"parent": "aj:blueprint/wander/log",
-	"textures": {
-		"2": "minecraft:block/oak_log_top",
-		"10": "minecraft:block/oak_log",
-		"11": "minecraft:block/oak_planks"
-	}
-}
