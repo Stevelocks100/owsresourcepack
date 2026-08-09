@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,10 +22,10 @@ jobs:
       
           MAIN="./resourcepacks/main"
           BUILD="./build/main"
-          OUTPUT="./zipped"
-      
+          OUTPUT="./main.zip"
+
           rm -rf ./build "$OUTPUT"
-          mkdir -p "$BUILD" "$OUTPUT"
+          mkdir -p "$BUILD"
       
           echo "Copying main resource pack..."
           cp -a "$MAIN/." "$BUILD/"
@@ -64,6 +65,8 @@ jobs:
       
               if path.name == "main":
                   continue
+              if path.name.startswith("."):
+                  continue
       
               entries.append({
                   "directory": path.name,
@@ -88,13 +91,47 @@ jobs:
       
           (
             cd "$BUILD"
-            zip -r -9 -q "../../zipped/main.zip" .
+            zip -r -9 -q "../../main.zip" .
           )
       
           echo "Created:"
-          ls -lh "$OUTPUT/main.zip"
-      - name: Upload resource pack artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: resource-pack
-          path: zipped/main.zip
+          ls -lh ./main.zip
+      - name: Get latest release info
+        id: get_release
+        shell: bash
+        run: |
+          curl -sSL -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/latest" > release.json
+
+          RELEASE_ID=$(jq -r '.id // empty' release.json)
+
+          if [ -z "$RELEASE_ID" ]; then
+            echo "No latest release found or release ID is null"
+            exit 1
+          fi
+
+          echo "RELEASE_ID=$RELEASE_ID" >> $GITHUB_ENV
+
+      - name: Delete old resource pack
+        shell: bash
+        run: |
+          ASSET_ID=$(jq -r '.assets[] | select(.name == "main.zip") | .id // empty' release.json)
+
+          if [ -n "$ASSET_ID" ]; then
+            echo "Deleting old asset with ID $ASSET_ID"
+
+            curl -sSL -X DELETE \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              "https://api.github.com/repos/${{ github.repository }}/releases/assets/$ASSET_ID"
+          else
+            echo "No existing main.zip asset found to delete"
+          fi
+
+      - name: Upload resource pack to latest release
+        shell: bash
+        run: |
+          curl -sSL -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/zip" \
+            --data-binary @main.zip \
+            "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ env.RELEASE_ID }}/assets?name=main.zip&label=main.zip"
