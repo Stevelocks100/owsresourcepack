@@ -1,0 +1,100 @@
+name: Build Resource Pack
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build resource pack
+        shell: bash
+        run: |
+          set -e
+      
+          MAIN="./resourcepacks/main"
+          BUILD="./build/main"
+          OUTPUT="./zipped"
+      
+          rm -rf ./build "$OUTPUT"
+          mkdir -p "$BUILD" "$OUTPUT"
+      
+          echo "Copying main resource pack..."
+          cp -a "$MAIN/." "$BUILD/"
+      
+          shopt -s nullglob
+      
+          # Copy every surface-level resourcepack except main
+          for dir in ./resourcepacks/*/; do
+            [ -d "$dir" ] || continue
+      
+            name="$(basename "$dir")"
+      
+            if [ "$name" = "main" ]; then
+              continue
+            fi
+      
+            echo "Adding overlay: $name"
+      
+            cp -a "$dir" "$BUILD/$name"
+          done
+      
+          # Generate overlays in pack.mcmeta
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+      
+          mcmeta_path = Path("./build/main/pack.mcmeta")
+      
+          with mcmeta_path.open("r", encoding="utf-8") as f:
+              data = json.load(f)
+      
+          entries = []
+      
+          for path in sorted(Path("./resourcepacks").iterdir()):
+              if not path.is_dir():
+                  continue
+      
+              if path.name == "main":
+                  continue
+      
+              entries.append({
+                  "directory": path.name,
+                  "formats": [63, 999],
+                  "min_format": 63,
+                  "max_format": 999
+              })
+      
+          data["overlays"] = {
+              "entries": entries
+          }
+      
+          with mcmeta_path.open("w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+          PY
+      
+          echo "Generated pack.mcmeta:"
+          cat "$BUILD/pack.mcmeta"
+      
+          echo "Zipping final resource pack..."
+      
+          (
+            cd "$BUILD"
+            zip -r -9 -q "../../zipped/main.zip" .
+          )
+      
+          echo "Created:"
+          ls -lh "$OUTPUT/main.zip"
+      - name: Upload resource pack artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-pack
+          path: zipped/main.zip
