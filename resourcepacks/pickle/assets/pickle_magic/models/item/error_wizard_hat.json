@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "devesto:item/missing_overlay",
+		"0": "devesto:item/missing",
 		"1": "pickle_magic:item/hat_overlay",
 		"19": "pickle_magic:item/missing",
-		"particle": "devesto:item/missing_overlay"
+		"particle": "devesto:item/missing"
 	},
 	"elements": [
 		{
