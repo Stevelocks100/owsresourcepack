@@ -1,0 +1,148 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_empty.png",
+            "ascent": 62,
+            "height": 65,
+            "chars": ["\uF0F0"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_empty.png",
+            "ascent": 76,
+            "height": 76,
+            "chars": ["\uF0F1"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_blank.png",
+            "ascent": 62,
+            "height": 65,
+            "chars": ["\uF799"]
+        },
+
+
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_astral_distortion.png",
+            "ascent": 115,
+            "height": 128,
+            "chars": ["\uF0F2"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_freeze.png",
+            "ascent": 115,
+            "height": 128,
+            "chars": ["\uF0F3"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_gravity_well.png",
+            "ascent": 115,
+            "height": 128,
+            "chars": ["\uF0F4"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_silence.png",
+            "ascent": 115,
+            "height": 128,
+            "chars": ["\uF0F5"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_testicular_torsion.png",
+            "ascent": 115,
+            "height": 128,
+            "chars": ["\uF0F6"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/effect_watery_grave.png",
+            "ascent": 115,
+            "height": 128,
+            "chars": ["\uF0F7"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_chrono_anchor.png",
+            "ascent": 128,
+            "height": 128,
+            "chars": ["\uF0F8"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_flight.png",
+            "ascent": 128,
+            "height": 128,
+            "chars": ["\uF0F9"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_fury.png",
+            "ascent": 128,
+            "height": 128,
+            "chars": ["\uF1F0"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_leap.png",
+            "ascent": 128,
+            "height": 128,
+            "chars": ["\uF1F1"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_levitation.png",
+            "ascent": 128,
+            "height": 128,
+            "chars": ["\uF1F2"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_repel.png",
+            "ascent": 128,
+            "height": 128,
+            "chars": ["\uF1F3"]
+        },
+        {
+            "type": "bitmap",
+            "file": "pickle_magic:ui_font/ui_scale_3/upper_effect_true_sight.png",
+            "ascent": 128,
+            "height": 128,
+            "chars": ["\uF1F4"]
+        },
+        
+        {
+    "type": "space",
+    "advances": {
+        "\uF798": -12.5,
+        "\uF800": 0,
+        "\uF801": -0.5,
+        "\uF802": -1.5,
+        "\uF804": -4,
+        "\uF807": -0.21,
+        "\uF808": -5,
+        "\uF809": -7.5,
+        "\uF811": -10,
+
+        "\uF810": 32,
+        "\uF820": -0.5,
+        "\uF840": -78,
+        "\uF880": -128,
+        "\uF901": 1, 
+        "\uF902": 2, 
+        "\uF904": 4, 
+        "\uF908": 68,
+        "\uF910": 16, 
+        "\uF920": 32, 
+        "\uF940": 64, 
+        "\uF980": 128
+    }
+}
+    ]
+}
