@@ -1,0 +1,17 @@
+{
+	"pack": {
+		"pack_format": 55,
+		"description": [
+			{
+				"text": "PHILS RESOURCE PACK",
+				"color": "gold"
+			}
+		],
+		"supported_formats": {
+			"min_inclusive": 55,
+			"max_inclusive": 62
+		},
+		"min_format": 69,
+		"max_format": 9999999
+	}
+}
