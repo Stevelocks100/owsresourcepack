@@ -1,0 +1,1 @@
+base.orb_portal: 760 ticks

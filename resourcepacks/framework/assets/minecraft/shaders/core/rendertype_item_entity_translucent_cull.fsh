@@ -8,6 +8,8 @@
 #moj_import <framework:possessed.glsl>
 #moj_import <skybox:skybox.glsl>
 #moj_import <corruption:missing.glsl>
+#moj_import <corruption:stevebase/skybox.glsl>
+#moj_import <corruption:stevebase/core.glsl>
 
 uniform sampler2D Sampler0;
 
@@ -88,6 +90,9 @@ void main() {
     fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
     fragColor = skybox(Sampler0, texCoord0, pos, GameTime, fragColor);
 
+    // fragColor.a = 1.0;
+    // fragColor.rgb = texture(Sampler0,texCoord0).aaa;
+    // return;
     
 
 
@@ -106,6 +111,51 @@ void main() {
         vec3 ro = CameraBlockPos - CameraOffset + pos;
         vec3 rd = normalize(pos);
         fragColor = vec4(missing(ro,rd,gl_FragCoord.xy),1.0);
+        return;
+        
+    }
+
+    if (shader_check == vec4(58, 88, 88, 91) || shader_check == vec4(58, 88, 89, 91)) {
+
+
+
+        fragColor = vec4(base_skybox(normalize(pos),GameTime * 1200, vec2(350)),1.0);
+
+        if (shader_check == vec4(58, 88, 88, 91)) {
+            float alpha = smoothstep(1.5, 2.7, length(pos));
+
+            float noise = fract(
+                sin(dot(floor((pos + CameraPos)*16)/16 , vec3(12.9898, 78.233, 43.553))) * 43758.5453
+            );
+
+            if (alpha < noise)
+                discard;
+        }
+        fragColor.a = 1.0;
+        return;
+        
+    }
+    if (shader_check == vec4(58, 89, 88, 91)) {
+
+
+
+        // fragColor = plasmaGlobe(
+        //     vec3(836.5, 118.5, -444.5),
+        //     CameraPos,
+        //     normalize(pos),
+        //     GameTime * 1200 * 1.1
+        // );
+
+        fragColor = plasmaGlobe(
+            CameraPos,
+            normalize(pos),
+            vec3(836.5, 116.5, -444.5)
+        );
+        if (length(pos) > 50) discard;
+        // fragColor.a = 1.0;
+        if (fragColor.a < 0.02)
+            discard;
+        
         return;
         
     }

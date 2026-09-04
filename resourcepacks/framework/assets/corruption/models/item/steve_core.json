@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Openvoxel Studios",
+	"textures": {
+		"0": "corruption:item/steve_core",
+		"particle": "corruption:item/steve_core"
+	},
+	"elements": [
+		{
+			"from": [16, 16, 16],
+			"to": [0, 0, 0],
+			"faces": {
+				"north": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

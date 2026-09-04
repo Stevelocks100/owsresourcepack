@@ -5,6 +5,8 @@
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
 #moj_import <framework:possessed.glsl>
+#moj_import <minecraft:globals.glsl>
+#moj_import <corruption:stevebase/skybox.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -90,6 +92,13 @@ void main() {
     
 
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color) * texelFetch(Sampler2, UV2 / 16, 0);
+    if (apply_base_skybox(Position + CameraBlockPos - CameraOffset) > 0) {
+        vertexColor.rgb = mix(
+            vertexColor.rgb,
+            applyLights(vertexColor.rgb, Normal),
+            apply_base_skybox(Position + CameraBlockPos - CameraOffset)
+        );
+    }
     texCoord0 = UV0;
     texCoord1 = UV1;
     texCoord2 = UV2;

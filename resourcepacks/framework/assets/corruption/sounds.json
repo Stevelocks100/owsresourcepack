@@ -1,0 +1,11 @@
+{
+  "base.orb_portal": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "corruption:base/orb_portal"
+      }
+    ],
+    "preload": true
+  }
+}
