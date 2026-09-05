@@ -149,7 +149,7 @@ void main() {
         fragColor = plasmaGlobe(
             CameraPos,
             normalize(pos),
-            vec3(836.5, 116.5, -444.5)
+            base_center - vec3(0,8.5,0)
         );
         if (length(pos) > 50) discard;
         // fragColor.a = 1.0;
