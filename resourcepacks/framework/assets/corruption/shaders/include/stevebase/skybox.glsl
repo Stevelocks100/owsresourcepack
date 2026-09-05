@@ -210,12 +210,16 @@ vec3 applyLights(
     return result;
 }
 
+//vec3 base_center = vec3(836.5, 125.0, -444.5);
+vec3 base_center = vec3(24.5, 196.0, -790.5);
+
+
 float apply_base_skybox(
     vec3 position
 ) {
-    float radius = length(position.xz - vec2(836.5, -444.5));
+    float radius = length(position.xz - base_center.xz);
     float strength = smoothstep(12.5,12,radius);
-    strength *= smoothstep(124.0,125.0,position.y) * smoothstep(133.5,133.0,position.y);
+    strength *= smoothstep(base_center.y-1,base_center.y,position.y) * smoothstep(base_center.y+8.5,base_center.y+8,position.y);
     return strength;
     
 }
