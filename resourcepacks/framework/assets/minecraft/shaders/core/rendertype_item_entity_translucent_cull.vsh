@@ -29,6 +29,12 @@ out vec3 pos;
 flat out mat4 inverseViewMatrix;
 flat out int isFramework;
 out vec2 face_coords;
+out vec2 smooth_coords;
+
+out float is_theworld;
+out vec2 theworld_pos;
+out vec4 raw_vertexColor;
+
 
 vec2[] corners = vec2[](
     vec2(1.0, 1.0),
@@ -44,14 +50,25 @@ vec2[] screen_corners = vec2[](
     vec2(1.0, 1.0)
 );
 
+vec2[] theworld_corners = vec2[](
+    vec2(0.0, 1.0),
+    vec2(0.0, 0.0),
+    vec2(1.0, 0.0),
+    vec2(1.0, 1.0)
+);
+
 
 void main() {
+
+    raw_vertexColor = Color;
     inverseViewMatrix = inverse(ProjMat * ModelViewMat);
     pos = Position;
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
 
     isFramework = 0;
+
+    smooth_coords = texture(Sampler0,UV0 + vec2(2,0) / textureSize(Sampler0,0)).rg;
 
     face_coords = corners[gl_VertexID % 4];
 
@@ -74,6 +91,8 @@ void main() {
         pos.xz += corners[gl_VertexID % 4] * corner_correction / size;
         isFramework = 3;
     }
+
+
     
     
     gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
@@ -102,4 +121,20 @@ void main() {
     texCoord0 = UV0;
     texCoord1 = UV1;
     texCoord2 = UV2;
+
+
+    theworld_pos = vec2(0);
+    is_theworld = 0;
+    if (shader_check == vec4(31,51,14,231)) {
+        theworld_pos = gl_Position.xy / gl_Position.w;
+        is_theworld = 1;
+        if (gl_Position.z < 0) {
+            is_theworld = 2;
+        }
+        
+        vec2 one_pixel = vec2(2) / ScreenSize;
+        gl_Position = vec4(-1 + (vec2(2,2) + theworld_corners[gl_VertexID % 4] * vec2(2,1)) * one_pixel , -1.0, 1.0);
+        //gl_Position.xy = vec2(theworld_corners[gl_VertexID % 4]*3);
+
+    }
 }

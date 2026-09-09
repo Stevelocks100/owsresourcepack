@@ -1,0 +1,12 @@
+{
+  "death.attack.spiritual_strength": "%1$s died from a lack of spiritual strength",
+  "death.attack.spiritual_strength.player": "%1$s died from a lack of spiritual strength",
+  "item.minecraft.tipped_arrow.effect.standarrow":"Stand Arrow",
+
+  "death.attack.the_world": "%1$s was pummeled by The World",
+  "death.attack.the_world.player": "%1$s was pummeled by %2$s's Stand: The World",
+  
+  "death.attack.throwable_knife": "%1$s was stabbed",
+  "death.attack.throwable_knife.player": "%1$s was brutally cut by %2$s",
+  "death.attack.throwable_knife.item": "%1$s was brutally cut by %2$s using %3$s"
+}

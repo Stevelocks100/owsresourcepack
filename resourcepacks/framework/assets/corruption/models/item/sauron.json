@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by Openvoxel Studios",
+	"textures": {
+		"0": "corruption:item/sauron",
+		"particle": "corruption:item/sauron"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 8],
+			"to": [32, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 6, 14], "texture": "#0"},
+				"east": {"uv": [2, 0, 0, 0], "texture": "#0"},
+				"south": {"uv": [2, 2, 6, 14], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 2, 0, 0], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,182 @@
+{
+    "targets": {
+        "swap": {},
+        "swap2": {},
+        "init_time":{
+            "persistent": true
+        },
+        "init_time_swap":{
+
+        }
+    },
+    "passes": [
+
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/entity_sobel",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:entity_outline"
+                }
+            ],
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/entity_outline_box_blur",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap",
+                    "bilinear": true
+                }
+            ],
+            "output": "minecraft:entity_outline",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "BlurDir",
+                        "type": "vec2",
+                        "value": [
+                            1,
+                            0
+                        ]
+                    },
+                    {
+                        "name": "Radius",
+                        "type": "float",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/entity_outline_box_blur",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:entity_outline",
+                    "bilinear": true
+                }
+            ],
+            "output": "swap",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "BlurDir",
+                        "type": "vec2",
+                        "value": [
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Radius",
+                        "type": "float",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "theworld:post/init_time",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "Data",
+                    "target": "init_time"
+                }
+            ],
+            "output": "init_time_swap"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "init_time_swap"
+                }
+            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    }
+                ]
+            },
+            "output": "init_time"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "theworld:post/main",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap"
+                },
+                {
+                    "sampler_name": "Main",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "ITime",
+                    "target": "init_time"
+                }
+            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    }
+                ]
+            },
+            "output": "swap2"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap2"
+                }
+            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    }
+                ]
+            },
+            "output": "minecraft:entity_outline"
+        }
+    ]
+}

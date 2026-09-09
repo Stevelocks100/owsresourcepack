@@ -10,6 +10,7 @@
 #moj_import <corruption:missing.glsl>
 #moj_import <corruption:stevebase/skybox.glsl>
 #moj_import <corruption:stevebase/core.glsl>
+#moj_import <corruption:sauron.glsl>
 
 uniform sampler2D Sampler0;
 
@@ -22,12 +23,30 @@ in vec3 pos;
 flat in mat4 inverseViewMatrix;
 flat in int isFramework;
 in vec2 face_coords;
+in vec2 smooth_coords;
+in float is_theworld;
+in vec2 theworld_pos;
+in vec4 raw_vertexColor;
 
 
 
 out vec4 fragColor;
 
 void main() {
+
+    if (is_theworld > 0 && sphericalVertexDistance < 40) {
+        float range = 1.4;
+        vec2 ndc = (theworld_pos / range + 1.0) * 0.5;
+        if (ivec2(gl_FragCoord.xy) == ivec2(2,2)) {
+            fragColor = vec4(vec3(156,53,97)/255,1);
+            if (is_theworld > 1) {
+                fragColor = vec4(vec3(156,54,97)/255,1);
+            }
+        } else {
+            fragColor = vec4(raw_vertexColor.r,ndc,1);
+        }
+        return;
+    }
     
 
     vec3 CameraPos = vec3(CameraBlockPos) - CameraOffset;
@@ -104,6 +123,13 @@ void main() {
         return;
     }
 
+    if (shader_check.rgb == vec4(163,142,113,215).rgb) {
+        fragColor = sauron(smooth_coords);
+        if (fragColor.a < 0.01) discard;
+
+        return;
+    }
+
 
 
     if (shader_check == vec4(84, 99, 13, 78)) {
@@ -115,8 +141,12 @@ void main() {
         
     }
 
-    if (shader_check == vec4(58, 88, 88, 91) || shader_check == vec4(58, 88, 89, 91)) {
+    if (shader_check == vec4(58, 88, 89, 91)) {
+        fragColor = vec4(base_skybox_nosun(normalize(pos),GameTime * 1200, vec2(350)),1.0);
+        return;
+    }
 
+    if (shader_check == vec4(58, 88, 88, 91) ) {
 
 
         fragColor = vec4(base_skybox(normalize(pos),GameTime * 1200, vec2(350)),1.0);

@@ -1,0 +1,114 @@
+{
+  "ability.za_warudo": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/za_warudo"
+      }
+    ],
+    "preload": true
+  },
+  "ability.teleport": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/teleport"
+      }
+    ],
+    "preload": true
+  },
+  "ability.unfreeze": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/unfreeze"
+      }
+    ],
+    "preload": true
+  },
+  "ability.time_freeze": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/time_freeze"
+      }
+    ],
+    "preload": true
+  },
+  "ability.muda_muda": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/muda_muda"
+      }
+    ],
+    "preload": true
+  },
+  "ability.voiceline": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/voiceline"
+      }
+    ],
+    "preload": true
+  },
+  "ability.punch_end": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/punch_end"
+      }
+    ],
+    "preload": true
+  },
+  "ability.punch.0": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/punch/0"
+      }
+    ]
+  },
+  "ability.punch.2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/punch/2"
+      }
+    ]
+  },
+  "ability.punch.3": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/punch/3"
+      }
+    ]
+  },
+  "ability.punch.4": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/punch/4"
+      }
+    ]
+  },
+  "ability.punch": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/punch/0"
+      },
+      {
+        "name": "theworld:ability/punch/2"
+      },
+      {
+        "name": "theworld:ability/punch/3"
+      },
+      {
+        "name": "theworld:ability/punch/4"
+      }
+    ]
+  }
+}

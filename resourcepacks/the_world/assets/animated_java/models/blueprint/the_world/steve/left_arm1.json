@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/the_world/left_arm1",
+	"textures": {
+		"0": "animated_java:blueprint/the_world/the_world_steve"
+	}
+}

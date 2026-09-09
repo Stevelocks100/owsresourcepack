@@ -111,7 +111,9 @@ vec3 nebula(vec3 dir, float iTime) {
 }
 
 
-vec3 sun(vec3 d, float iTime) {
+vec3 sun(vec3 d, float iTime, bool doSun) {
+
+    if (!doSun) return vec3(0);
     #ifdef BASESKYBOXSUN
         float angle = atan(d.x, d.y);    
         float falloff = pow(max(d.z, 0.0), 10.0);
@@ -128,21 +130,22 @@ vec3 sun(vec3 d, float iTime) {
 
 
 
-vec3 sphereColor(vec3 dir, float iTime, vec2 iResolution) {
+vec3 sphereColor(vec3 dir, float iTime, vec2 iResolution, bool doSun) {
     vec3 n = nebula(dir, iTime);
 
-    return sun(dir, iTime) + 
+    return sun(dir, iTime, doSun) + 
         (vec3(starfield(dir, iTime, iResolution)) * (1.0 - maxComponent(n)) + n);
     
 
 }
 
 vec3 base_skybox( vec3 dir, float iTime, vec2 iResolution) {
-
-
     //return dir/2 + 0.5;
-    return sqrt(sphereColor(vec3(dir.x,dir.y,-dir.z), iTime, iResolution));
-    
+    return sqrt(sphereColor(vec3(dir.x,dir.y,-dir.z), iTime, iResolution, true));
+}
+vec3 base_skybox_nosun( vec3 dir, float iTime, vec2 iResolution) {
+    //return dir/2 + 0.5;
+    return sqrt(sphereColor(vec3(dir.x,dir.y,-dir.z), iTime, iResolution, false));
 }
 
 
@@ -211,7 +214,7 @@ vec3 applyLights(
 }
 
 //vec3 base_center = vec3(836.5, 125.0, -444.5);
-vec3 base_center = vec3(24.5, 196.0, -790.5);
+const vec3 base_center = vec3(24.5, 196.0, -790.5);
 
 
 float apply_base_skybox(

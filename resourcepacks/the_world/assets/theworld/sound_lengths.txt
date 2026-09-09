@@ -1,0 +1,12 @@
+ability.muda_muda: 86 ticks
+ability.punch: 13 ticks
+ability.punch.0: 18 ticks
+ability.punch.2: 10 ticks
+ability.punch.3: 19 ticks
+ability.punch.4: 5 ticks
+ability.punch_end: 33 ticks
+ability.teleport: 8 ticks
+ability.time_freeze: 48 ticks
+ability.unfreeze: 37 ticks
+ability.voiceline: 46 ticks
+ability.za_warudo: 83 ticks

@@ -1,0 +1,48 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"the_world": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/the_world/body.json",
+				"assets/animated_java/items/blueprint/the_world/head.json",
+				"assets/animated_java/items/blueprint/the_world/left_arm1.json",
+				"assets/animated_java/items/blueprint/the_world/left_arm2.json",
+				"assets/animated_java/items/blueprint/the_world/left_arm3.json",
+				"assets/animated_java/items/blueprint/the_world/left_arm4.json",
+				"assets/animated_java/items/blueprint/the_world/left_leg.json",
+				"assets/animated_java/items/blueprint/the_world/right_arm1.json",
+				"assets/animated_java/items/blueprint/the_world/right_arm2.json",
+				"assets/animated_java/items/blueprint/the_world/right_arm3.json",
+				"assets/animated_java/items/blueprint/the_world/right_arm4.json",
+				"assets/animated_java/items/blueprint/the_world/right_leg.json",
+				"assets/animated_java/models/blueprint/the_world/body.json",
+				"assets/animated_java/models/blueprint/the_world/head.json",
+				"assets/animated_java/models/blueprint/the_world/left_arm1.json",
+				"assets/animated_java/models/blueprint/the_world/left_arm2.json",
+				"assets/animated_java/models/blueprint/the_world/left_arm3.json",
+				"assets/animated_java/models/blueprint/the_world/left_arm4.json",
+				"assets/animated_java/models/blueprint/the_world/left_leg.json",
+				"assets/animated_java/models/blueprint/the_world/right_arm1.json",
+				"assets/animated_java/models/blueprint/the_world/right_arm2.json",
+				"assets/animated_java/models/blueprint/the_world/right_arm3.json",
+				"assets/animated_java/models/blueprint/the_world/right_arm4.json",
+				"assets/animated_java/models/blueprint/the_world/right_leg.json",
+				"assets/animated_java/models/blueprint/the_world/steve/body.json",
+				"assets/animated_java/models/blueprint/the_world/steve/head.json",
+				"assets/animated_java/models/blueprint/the_world/steve/left_arm1.json",
+				"assets/animated_java/models/blueprint/the_world/steve/left_arm2.json",
+				"assets/animated_java/models/blueprint/the_world/steve/left_arm3.json",
+				"assets/animated_java/models/blueprint/the_world/steve/left_arm4.json",
+				"assets/animated_java/models/blueprint/the_world/steve/left_leg.json",
+				"assets/animated_java/models/blueprint/the_world/steve/right_arm1.json",
+				"assets/animated_java/models/blueprint/the_world/steve/right_arm2.json",
+				"assets/animated_java/models/blueprint/the_world/steve/right_arm3.json",
+				"assets/animated_java/models/blueprint/the_world/steve/right_arm4.json",
+				"assets/animated_java/models/blueprint/the_world/steve/right_leg.json",
+				"assets/animated_java/textures/blueprint/the_world/the_world.png",
+				"assets/animated_java/textures/blueprint/the_world/the_world_steve.png"
+			]
+		}
+	}
+}
