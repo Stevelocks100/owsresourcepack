@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by NoxTurnaL using BlockBench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vigilpack:item/seyes",
+		"particle": "vigilpack:item/seyes"
+	},
+	"elements": [
+		{
+			"from": [-7, 0, 0],
+			"to": [25, 22, 0.25],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 5.5], "texture": "#0"},
+				"east": {"uv": [8, 0.5, 8.25, 6], "texture": "#0"},
+				"south": {"uv": [8, 0, 0, 5.5], "texture": "#0"},
+				"west": {"uv": [8, 6, 8.25, 11.5], "texture": "#0"},
+				"up": {"uv": [16, 0.25, 8, 0], "texture": "#0"},
+				"down": {"uv": [16, 0.25, 8, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0.75, -2.75, 8.25],
+			"scale": [1.4, 1.41, 1.4]
+		}
+	}
+}
