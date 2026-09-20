@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "wander:item/spawn_eggs/wandering_slaughterer"
+    }
+}

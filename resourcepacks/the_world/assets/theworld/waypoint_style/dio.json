@@ -3,6 +3,9 @@
     "theworld:3",
     "theworld:2",
     "theworld:1",
-    "theworld:0"
-  ]
+    "theworld:0",
+    "theworld:blank"
+  ],
+  "far_distance": 100,
+  "near_distance": 30
 }

@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:painting/variant",
+    "cases": [
+        {
+          "when": ["wander:obtain"],
+          "model": { "type": "model", "model": "wander:item/spawn_eggs/all"}
+        }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/painting"
+    }
+  }
+}
