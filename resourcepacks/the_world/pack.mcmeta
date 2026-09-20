@@ -2,9 +2,9 @@
 	"pack": {
 		"pack_format": 75,
 		"description": "ZA WARUDOOO",
-		"min_format": 63,
+		"min_format": 75,
 		"max_format": 75,
-		"supported_formats": [63,75]
+		"supported_formats": [63, 75]
 	},
 	"overlays": {
 		"entries": [

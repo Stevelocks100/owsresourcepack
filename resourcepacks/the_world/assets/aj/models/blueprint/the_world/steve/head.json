@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/the_world/head",
+	"textures": {
+		"0": "aj:blueprint/the_world/the_world_steve"
+	}
+}

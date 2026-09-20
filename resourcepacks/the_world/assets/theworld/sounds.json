@@ -1,4 +1,22 @@
 {
+  "ability.knife_frozen": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/knife_frozen"
+      }
+    ],
+    "preload": true
+  },
+  "ability.knife_throw": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/knife_throw"
+      }
+    ],
+    "preload": true
+  },
   "ability.za_warudo": {
     "replace": true,
     "sounds": [
@@ -26,6 +44,33 @@
     ],
     "preload": true
   },
+  "ability.appear": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/appear"
+      }
+    ],
+    "preload": true
+  },
+  "ability.za_warudo_short": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/za_warudo_short"
+      }
+    ],
+    "preload": true
+  },
+  "ability.punch_frozen": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/punch_frozen"
+      }
+    ],
+    "preload": true
+  },
   "ability.time_freeze": {
     "replace": true,
     "sounds": [
@@ -40,6 +85,33 @@
     "sounds": [
       {
         "name": "theworld:ability/muda_muda"
+      }
+    ],
+    "preload": true
+  },
+  "ability.impact2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/impact2"
+      }
+    ],
+    "preload": true
+  },
+  "ability.heartbeat": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/heartbeat"
+      }
+    ],
+    "preload": true
+  },
+  "ability.impact1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "theworld:ability/impact1"
       }
     ],
     "preload": true

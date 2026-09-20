@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/the_world/left_arm3",
+	"textures": {
+		"0": "aj:blueprint/the_world/the_world_steve"
+	}
+}

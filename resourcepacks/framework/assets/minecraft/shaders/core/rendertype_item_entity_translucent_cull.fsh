@@ -34,7 +34,9 @@ out vec4 fragColor;
 
 void main() {
 
+
     if (is_theworld > 0 && sphericalVertexDistance < 40) {
+
         float range = 1.4;
         vec2 ndc = (theworld_pos / range + 1.0) * 0.5;
         if (ivec2(gl_FragCoord.xy) == ivec2(2,2)) {

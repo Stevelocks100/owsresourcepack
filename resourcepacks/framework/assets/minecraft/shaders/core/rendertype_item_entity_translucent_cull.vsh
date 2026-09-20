@@ -125,6 +125,7 @@ void main() {
 
     theworld_pos = vec2(0);
     is_theworld = 0;
+    shader_check = round(texture(Sampler0,UV0)*255);
     if (shader_check == vec4(31,51,14,231)) {
         theworld_pos = gl_Position.xy / gl_Position.w;
         is_theworld = 1;
