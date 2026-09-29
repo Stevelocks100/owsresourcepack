@@ -61,5 +61,14 @@
       }
     ],
     "preload": true
+  },
+  "sfx.bell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:sfx/bell"
+      }
+    ],
+    "preload": true
   }
 }

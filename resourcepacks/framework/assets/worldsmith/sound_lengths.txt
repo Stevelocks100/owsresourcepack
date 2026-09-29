@@ -5,3 +5,4 @@ music.phase1: 512 ticks
 music.phase2: 512 ticks
 music.phase3: 512 ticks
 music.phase4: 512 ticks
+sfx.bell: 151 ticks
