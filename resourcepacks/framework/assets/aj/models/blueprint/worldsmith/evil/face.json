@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/worldsmith/face",
+	"textures": {
+		"1": "aj:blueprint/worldsmith/face_evil"
+	}
+}

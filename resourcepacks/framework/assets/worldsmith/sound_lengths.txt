@@ -1,0 +1,7 @@
+music.bridge: 271 ticks
+music.ending: 112 ticks
+music.intro: 32 ticks
+music.phase1: 512 ticks
+music.phase2: 512 ticks
+music.phase3: 512 ticks
+music.phase4: 512 ticks

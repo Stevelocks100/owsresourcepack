@@ -299,6 +299,33 @@
 				"assets/aj/textures/blueprint/framework_possessed/possessed.png"
 			]
 		},
+		"aj:worldsmith": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/worldsmith/face.json",
+				"assets/aj/items/blueprint/worldsmith/hammer.json",
+				"assets/aj/items/blueprint/worldsmith/head.json",
+				"assets/aj/items/blueprint/worldsmith/left_arm.json",
+				"assets/aj/items/blueprint/worldsmith/left_leg.json",
+				"assets/aj/items/blueprint/worldsmith/right_arm2.json",
+				"assets/aj/items/blueprint/worldsmith/right_leg2.json",
+				"assets/aj/items/blueprint/worldsmith/root.json",
+				"assets/aj/models/blueprint/worldsmith/evil/face.json",
+				"assets/aj/models/blueprint/worldsmith/face.json",
+				"assets/aj/models/blueprint/worldsmith/hammer.json",
+				"assets/aj/models/blueprint/worldsmith/head.json",
+				"assets/aj/models/blueprint/worldsmith/left_arm.json",
+				"assets/aj/models/blueprint/worldsmith/left_leg.json",
+				"assets/aj/models/blueprint/worldsmith/no_mouth/face.json",
+				"assets/aj/models/blueprint/worldsmith/right_arm2.json",
+				"assets/aj/models/blueprint/worldsmith/right_leg2.json",
+				"assets/aj/models/blueprint/worldsmith/root.json",
+				"assets/aj/textures/blueprint/worldsmith/face_evil.png",
+				"assets/aj/textures/blueprint/worldsmith/face_no_mouth.png",
+				"assets/aj/textures/blueprint/worldsmith/face_normal.png",
+				"assets/aj/textures/blueprint/worldsmith/turtle.png"
+			]
+		},
 		"framework_centipede_head": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [

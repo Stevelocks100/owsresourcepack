@@ -11,6 +11,7 @@
 #moj_import <corruption:stevebase/skybox.glsl>
 #moj_import <corruption:stevebase/core.glsl>
 #moj_import <corruption:sauron.glsl>
+#moj_import <worldsmith:surface.glsl>
 
 uniform sampler2D Sampler0;
 
@@ -27,12 +28,14 @@ in vec2 smooth_coords;
 in float is_theworld;
 in vec2 theworld_pos;
 in vec4 raw_vertexColor;
+in vec3 normal;
 
 
 
 out vec4 fragColor;
 
 void main() {
+
 
 
     if (is_theworld > 0 && sphericalVertexDistance < 40) {
@@ -192,14 +195,37 @@ void main() {
         
     }
 
+
+    //gphoenix blade glowing
     shader_check = round(texture(Sampler0,texCoord0 + (vec2(32,0) / textureSize(Sampler0,0)))*255);
     if (shader_check == vec4(47,208,165,119)) {
         fragColor = texture(Sampler0,texCoord0);
         return;
     }
+
+    //idk which this is for :sob:
     shader_check = round(texture(Sampler0,texCoord0 + (vec2(128,0) / textureSize(Sampler0,0)))*255);
-    if (shader_check.rgb == vec3(130,160,109)) {
+    if (shader_check.rgb == vec3(130,160,109) || shader_check == vec4(47,208,165,119)) {
         fragColor = texture(Sampler0,texCoord0);
+        return;
+
+    }
+
+    //worldsmith
+    shader_check = round(texture(Sampler0,texCoord0 + (vec2(256,0) / textureSize(Sampler0,0)))*255);
+    vec4 shader_check2 = round(texture(Sampler0,texCoord0 + (vec2(64,0) / textureSize(Sampler0,0)))*255);
+    if (shader_check == vec4(79,134,110,85) || shader_check2 == vec4(79,134,110,85)) {
+        fragColor = texture(Sampler0,texCoord0);
+        if (distance(fragColor.rgb*255,vec3(0)) < 50) {
+
+            // vec3 viewNormal = normalize((ModelViewMat * vec4(normal, 0.0)).xyz);
+            // float facing = dot(normalize(viewNormal), vec3(0.0, 0.0, -1.0));
+            float facing = 0;
+
+            float worldsmith_surface_brightness = worldsmith_surface(gl_FragCoord.xy,ScreenSize,GameTime*1200) * (1 - worldsmith_surface(texCoord0,textureSize(Sampler0,0),GameTime*2400));
+            worldsmith_surface_brightness = pow(worldsmith_surface_brightness,1.8) / 2 * (1 - clamp(facing,0,1));
+            fragColor.rgb = (1 - fragColor.rgb) * vec3(worldsmith_surface_brightness);
+        }
         return;
 
     }

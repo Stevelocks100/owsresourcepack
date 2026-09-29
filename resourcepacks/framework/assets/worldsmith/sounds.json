@@ -1,0 +1,65 @@
+{
+  "music.intro": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:music/intro"
+      }
+    ],
+    "preload": true
+  },
+  "music.bridge": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:music/bridge"
+      }
+    ],
+    "preload": true
+  },
+  "music.phase2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:music/phase2"
+      }
+    ],
+    "preload": true
+  },
+  "music.phase3": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:music/phase3"
+      }
+    ],
+    "preload": true
+  },
+  "music.phase1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:music/phase1"
+      }
+    ],
+    "preload": true
+  },
+  "music.phase4": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:music/phase4"
+      }
+    ],
+    "preload": true
+  },
+  "music.ending": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "worldsmith:music/ending"
+      }
+    ],
+    "preload": true
+  }
+}

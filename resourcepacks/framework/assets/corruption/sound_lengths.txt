@@ -1,1 +1,2 @@
 base.orb_portal: 760 ticks
+records.lava_chicken: 1813 ticks

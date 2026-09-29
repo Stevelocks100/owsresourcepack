@@ -1,4 +1,13 @@
 {
+  "records.lava_chicken": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "corruption:records/lava_chicken"
+      }
+    ],
+    "preload": true
+  },
   "base.orb_portal": {
     "replace": true,
     "sounds": [

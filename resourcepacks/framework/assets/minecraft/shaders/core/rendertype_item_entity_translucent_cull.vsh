@@ -30,6 +30,7 @@ flat out mat4 inverseViewMatrix;
 flat out int isFramework;
 out vec2 face_coords;
 out vec2 smooth_coords;
+out vec3 normal;
 
 out float is_theworld;
 out vec2 theworld_pos;
@@ -65,6 +66,7 @@ void main() {
     pos = Position;
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
+    normal = Normal;
 
     isFramework = 0;
 
