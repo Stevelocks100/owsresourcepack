@@ -1,0 +1,6 @@
+{
+	"parent": "aj:blueprint/incense/pot",
+	"textures": {
+		"1": "aj:blueprint/incense/on"
+	}
+}

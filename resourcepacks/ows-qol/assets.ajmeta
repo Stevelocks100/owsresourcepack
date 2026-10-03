@@ -1,0 +1,16 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"aj:incense": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/incense/pot.json",
+				"assets/aj/models/blueprint/incense/pot.json",
+				"assets/aj/models/blueprint/incense/turned_off/pot.json",
+				"assets/aj/models/blueprint/incense/turned_on/pot.json",
+				"assets/aj/textures/blueprint/incense/off.png",
+				"assets/aj/textures/blueprint/incense/on.png"
+			]
+		}
+	}
+}
